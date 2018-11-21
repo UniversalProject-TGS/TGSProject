@@ -1,0 +1,209 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Universal</title>
+
+    <!-- CSS de material -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.0/material.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+    .container {
+     width: 250px;
+     height: 250px;
+     position:relative;
+     left: 0;
+     right: 0;
+     margin: 0 auto;
+     top: 20px;
+   }
+     .div-img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+   }
+     .div-img .img {
+     -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+      border-radius: 10px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      transform: scale(1);
+     -ms-transform: scale(1);
+     -moz-transform: scale(1);
+     -webkit-transform: scale(1);
+     -o-transform: scale(1);
+     -webkit-transition: all 500ms ease-in-out;
+     -moz-transition: all 500ms ease-in-out;
+     -ms-transition: all 500ms ease-in-out;
+     -o-transition: all 500ms ease-in-out;
+   }
+     .div-img .text {
+      font-family: 'Open Sans';
+      padding-top: 5px;
+      display: block;
+      text-align: center;
+      width: 100%;
+      transform: translate(0px);
+     -webkit-transition: all 500ms ease-in-out;
+     -moz-transition: all 500ms ease-in-out;
+     -ms-transition: all 500ms ease-in-out;
+     -o-transition: all 500ms ease-in-out;
+      opacity: 0;
+      transition: transfom opacity 1.5s;
+    }
+     .div-img:hover .img {
+      transform: scale(0.8);
+     -ms-transform: scale(0.8);
+     -moz-transform: scale(0.8);
+     -webkit-transform: scale(0.8);
+     -o-transform: scale(0.8);
+   }
+     .div-img:hover .text {
+      transform: translate(0px, -20px);
+      opacity: 1;
+}
+    </style>
+
+  </head>
+
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="android-title mdl-layout-title">
+            <div style="font-family: 'Montserrat', serif;"><font color="grey">Universal</font></div>
+          </span>
+
+          <!-- añade el espacio y alinea a la derecha -->
+          <div class="android-header-spacer mdl-layout-spacer"></div>
+          
+          <!-- Navegacion -->
+          <div class="android-navigation-container">
+            <nav class="android-navigation mdl-navigation">
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="IndexIngles.html">Page d'accueil</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="Logout.html">Fermer la session</a>
+            </nav>
+          </div>
+
+          <span class="android-mobile-title mdl-layout-title">
+            <span class="android-title mdl-layout-title">
+              <div style="font-family: 'Montserrat', serif;"><font color="grey">Universal</font></div>
+            </span>
+          </span>
+
+
+            <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+            <i class="material-icons">keyboard_arrow_right</i>
+          </button>
+          <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+            <a class="mdl-navigation__link" href="FAQ.html"><i class="material-icons">live_help</i>FAQ's</a>
+            <!--<a class="mdl-navigation__link" href="Logout.html"><i class="material-icons">power_settings_new</i>Salir</a>-->
+          </ul>
+        </div>
+      </div>
+
+      <div class="android-content mdl-layout__content">
+
+        <a name="top"></a>
+
+        <div class="android-be-together-section mdl-typography--text-center">
+         <!--- <div class="logo-font android-slogan">¡Mejora tus habilidades para el ingles!</div>-->
+          <div class="logo-font android-slogan">Lorsque vous parlez une autre langue, votre monde devient plus grand, plus riche et plus intéressant.
+          </div>
+        </div>
+
+        <div class="android-wear-section">
+          <div class="android-wear-band">
+            <div class="android-wear-band-text">
+              <div class="mdl-typography--display-2 mdl-typography--font-thin">Comment pouvons-nous vous aider?</div>
+              <p class="mdl-typography--headline mdl-typography--font-thin">
+                Trouvez du contenu divertissant qui vous aide à améliorer votre compréhension de la lecture, votre capacité d'écoute et votre grammaire à un niveau formel et informel.
+              </p>
+              <p>
+                <a class="mdl-typography--font-regular mdl-typography--text-uppercase android-alt-link" >
+                 Amusez-vous apprendre!
+                </a>
+              </p>
+            </div>
+          </div>
+       </div>
+
+       <!--seccion de actividades -->
+
+        <div class="android-more-section">
+          <div class="android-section-title mdl-typography--display-1-color-contrast"><center>Activités</center></div> 
+          
+          <!-- Listening -->
+          <div class="android-card-container mdl-grid">
+
+                <div class="container">
+                  <div class="div-img" >
+                    <a href="Listening.html">
+                    <img class="img" src="images/listeningimg.png" title="Écouter" alt="Listening"></a>
+                     <div class="text">Écouter</div>
+                  </div>
+                </div>
+
+            <!-- Reading -->
+              <div class="container">
+                  <div class="div-img" >
+                    <a href="Reading.html">
+                    <img class="img" src="images/readingimg.png" title="Lecture" alt="Reading" href="Reading.html"></a>
+                     <div class="text">Lecture</div>
+                  </div>
+              </div>
+
+            <!-- Grammar -->
+              <div class="container">
+                  <div class="div-img" >
+                    <a href="Grammar.html">
+                    <img class="img" src="images/grammarimg.png" title="Grammaire" alt="Grammar"></a>
+                     <div class="text">Grammaire</div>
+                  </div>
+                </div>
+
+            </div>
+          </div>
+        </div>
+
+        <footer class="android-footer mdl-mega-footer">
+          <div class="mdl-mega-footer--top-section">
+
+            <div class="mdl-mega-footer--right-section">
+              <a class="mdl-typography--font-light" href="#top">
+                Top
+                <i class="material-icons">expand_less</i>
+              </a>
+            </div>
+          </div>
+
+
+        </footer>
+      </div>
+    </div>
+
+    <script src="https://code.getmdl.io/1.2.0/material.min.js"></script>
+  </body>
+</html>

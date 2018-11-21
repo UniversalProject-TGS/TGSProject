@@ -1,0 +1,476 @@
+<!doctype html>
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Grammaire</title>
+
+    <!-- CSS de material -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.0/material.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+        <!--del modal -->
+     <link rel="stylesheet" href="modal-css/normalize.css">  
+     <link rel="stylesheet" href="modal-css/style.css">
+
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+
+
+
+  </head>
+
+  <body>
+
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="android-title mdl-layout-title">
+            <div style="font-family: 'Montserrat', serif;"><font color="grey">Universal</font></div>
+          </span>
+
+         <!-- añade el espacio y alinea a la derecha -->
+          <div class="android-header-spacer mdl-layout-spacer"></div>
+          
+
+          <!-- Navegacion -->
+          <div class="android-navigation-container">
+            <nav class="android-navigation mdl-navigation">
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="IndexIngles.html">Page d'accueil</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="Logout.html">Fermer la session</a>
+            </nav>
+          </div>
+
+          <span class="android-mobile-title mdl-layout-title">
+            <span class="android-title mdl-layout-title">
+              <div style="font-family: 'Montserrat', serif;"><font color="grey">Universal</font></div>
+            </span>
+          </span>
+
+
+            <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+            <i class="material-icons">keyboard_arrow_right</i>
+          </button>
+          <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+            <a class="mdl-navigation__link" href="FAQ.html"><i class="material-icons">live_help</i>FAQ's</a>
+          </ul>
+
+        </div>
+      </div>
+
+
+      <div class="android-content mdl-layout__content">
+
+        <a name="top"></a>
+       <div class="logo-font android-sub-slogan mdl-typography--text-center"><font color = "grey">Améliorez la façon dont vous formulez les phrases!</font></div>
+
+      <!--contenido de la pagina -->
+      
+      <div class="content-grid mdl-grid">
+      <div class="content-column mdl-cell--6-col">
+     
+    <!-- Igual ya meti 4 y no se despedorro xD -->
+      
+
+      <ul class="demo-list-three mdl-list">
+
+
+        <li class="mdl-list__item mdl-list__item--three-line">
+          <span class="mdl-list__item-primary-content">
+            <i class="material-icons mdl-list__item-avatar">library_books</i>
+            <span>Artículos definidos</span>
+            <span class="mdl-list__item-text-body">
+             Los artículos definidos son 3 ("le", "la" y "les")
+            </span>
+          </span>
+          <span class="mdl-list__item-secondary-content">
+            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#" data-modal-id="popup1"><i class="material-icons">add_box</i></a>
+          </span>
+        </li>
+
+
+        <li class="mdl-list__item mdl-list__item--three-line">
+          <span class="mdl-list__item-primary-content">
+            <i class="material-icons  mdl-list__item-avatar">library_books</i>
+            <span>Artículos indefinidos</span>
+            <span class="mdl-list__item-text-body">
+              Los artículos indefinidos son 3 ("un", "une" y "des")
+            </span>
+          </span>
+          <span class="mdl-list__item-secondary-content">
+             <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#" data-modal-id="popup2"><i class="material-icons">add_box</i></a>
+          </span>
+        </li>
+
+
+        <li class="mdl-list__item mdl-list__item--three-line">
+          <span class="mdl-list__item-primary-content">
+            <i class="material-icons  mdl-list__item-avatar">library_books</i>
+            <span>Conjugación verbal: el participio presente</span>
+            <span class="mdl-list__item-text-body">
+              Las formas que terminan en -ing (participio presente) junto con be en presente forman el presente continuo.
+            </span>
+          </span>
+          <span class="mdl-list__item-secondary-content">
+           <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#" data-modal-id="popup3"><i class="material-icons">add_box</i></a>
+          </span>
+        </li>
+
+
+        <li class="mdl-list__item mdl-list__item--three-line">
+          <span class="mdl-list__item-primary-content">
+            <i class="material-icons  mdl-list__item-avatar">library_books</i>
+            <span>Adjetivos calificativos</span>
+            <span class="mdl-list__item-text-body">
+             Los adjetivos se usan principalmente de dos maneras...
+            </span>
+          </span>
+          <span class="mdl-list__item-secondary-content">
+             <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#" data-modal-id="popup4"><i class="material-icons">add_box</i></a>
+          </span>
+        </li>
+
+          <li class="mdl-list__item mdl-list__item--three-line">
+          <span class="mdl-list__item-primary-content">
+            <i class="material-icons  mdl-list__item-avatar">library_books</i>
+            <span>Oraciones negativas</span>
+            <span class="mdl-list__item-text-body">
+             Para formar una oración negativa, añade not después de los verbos be or have...
+            </span>
+          </span>
+          <span class="mdl-list__item-secondary-content">
+             <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#" data-modal-id="popup5"><i class="material-icons">add_box</i></a>
+          </span>
+        </li>
+
+      </ul>
+        </div>
+
+        <!-- segunda columna !!!!!!!!!11-->
+     
+        <div class="content-column mdl-cell--6-col">
+      
+
+      <ul class="demo-list-three mdl-list">
+
+        <li class="mdl-list__item mdl-list__item--three-line">
+          <span class="mdl-list__item-primary-content">
+            <i class="material-icons mdl-list__item-avatar">library_books</i>
+            <span>Oraciones Interrogativas</span>
+            <span class="mdl-list__item-text-body">
+            Es necesario cambiar el orden de las palabras para formar preguntas en inglés....
+            </span>
+          </span>
+          <span class="mdl-list__item-secondary-content">
+            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#" data-modal-id="popup6"><i class="material-icons">add_box</i></a>
+          </span>
+        </li>
+
+
+        <li class="mdl-list__item mdl-list__item--three-line">
+          <span class="mdl-list__item-primary-content">
+            <i class="material-icons  mdl-list__item-avatar">library_books</i>
+            <span>Conjugación verbal: pasado simple</span>
+            <span class="mdl-list__item-text-body">
+              El pasado simple se emplea para hablar de...
+            </span>
+          </span>
+          <span class="mdl-list__item-secondary-content">
+            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#" data-modal-id="popup7"><i class="material-icons">add_box</i></a>
+          </span>
+        </li>
+
+
+        <li class="mdl-list__item mdl-list__item--three-line">
+          <span class="mdl-list__item-primary-content">
+            <i class="material-icons  mdl-list__item-avatar">library_books</i>
+            <span>Verbos modales</span>
+            <span class="mdl-list__item-text-body">
+              Los verbos modales expresan el punto de vista del hablante en relación a...
+            </span>
+          </span>
+          <span class="mdl-list__item-secondary-content">
+             <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#" data-modal-id="popup8"><i class="material-icons">add_box</i></a>
+          </span>
+        </li>
+
+        <li class="mdl-list__item mdl-list__item--three-line">
+          <span class="mdl-list__item-primary-content">
+            <i class="material-icons  mdl-list__item-avatar">library_books</i>
+            <span>¿"Lie" o "lay"?</span>
+            <span class="mdl-list__item-text-body">
+              ¿Cuando utilizamos lie y cuando lay?
+            </span>
+          </span>
+          <span class="mdl-list__item-secondary-content">
+             <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#" data-modal-id="popup9"><i class="material-icons">add_box</i></a>
+          </span>
+        </li>
+
+
+        <li class="mdl-list__item mdl-list__item--three-line">
+          <span class="mdl-list__item-primary-content">
+            <i class="material-icons  mdl-list__item-avatar">library_books</i>
+            <span>¿Qué hora es?</span>
+            <span class="mdl-list__item-text-body">
+              Usa o'clock si no hay minutos en la hora que se quiere expresar...
+            </span>
+          </span>
+          <span class="mdl-list__item-secondary-content">
+             <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#" data-modal-id="popup10"><i class="material-icons">add_box</i></a>
+          </span>
+        </li>
+
+
+      </ul>
+        </div>
+
+
+      </div>
+              
+
+     
+
+      <!-- termina contenido de la pagina-->
+      <!-- mas modales :1-->
+        <div id="popup1" class="modal-box">  
+        <header>
+          <a href="#" class="js-modal-close close">×</a>
+          <h3>Artículos definidos</h3>
+        </header>
+        <div class="modal-body">
+          <p>
+            El artículo definido en Francés para el singular tiene 2 formas, una para el masculino: le, y otra para el femenino: la. En plural se usa les tanto para masculino como para femenino.
+
+En singular se usa en ocasiones la contracción l’, cuando el nombre que acompaña al artículo empieza por vocal o por hache.</p>
+<p>
+              le/l' (masculino)
+              <br>
+              la/l'  (femenino)  
+              <br>
+              les (plural masculino y femenino)
+          </p>
+          
+        </div>
+        <footer>
+          <a href="#" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect js-modal-close">Cerrar</a>
+        </footer>
+      </div>
+
+       <div id="popup2" class="modal-box">  
+        <header>
+          <a href="#" class="js-modal-close close">×</a>
+          <h3>Artículos indefinidos</h3>
+        </header>
+        <div class="modal-body">
+          <p><br/>
+             Para el artículo indefinido en Francés se utiliza un y une para el singular masculino y femenino respectivamente, y des para el plural. </p>
+             <p>un  (masculino)
+              <br>
+              une (femenino)
+              <br>
+              des (plural masculino y femenino)</p>
+          
+        </div>
+        <footer>
+          <a href="#" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect js-modal-close">Cerrar</a>
+        </footer>
+      </div>
+
+
+      <div id="popup3" class="modal-box">  
+        <header>
+          <a href="#" class="js-modal-close close">×</a>
+          <h3>Conjugación verbal: participio presente</h3>
+        </header>
+        <div class="modal-body">
+          <p><br/>
+            Las formas que terminan en -ing (participio presente) junto con be en presente forman el presente continuo.
+            I am waiting for you. We are meeting tomorrow at 2 p.m.
+            El presente continuo se usa para describir:
+            una actividad que se encuentra en transcurso en el momento en el que se habla
+            una actividad futura ya planeada
+          </p>
+          
+        </div>
+        <footer>
+          <a href="#" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect js-modal-close">Cerrar</a>
+        </footer>
+      </div>
+
+      <div id="popup4" class="modal-box">  
+        <header>
+          <a href="#" class="js-modal-close close">×</a>
+          <h3>Adjetivos calificativos</h3>
+        </header>
+        <div class="modal-body">
+          <p><br/>
+            Los adjetivos se usan principalmente de dos maneras:
+            antes de un nombre (a nice girl)
+            después del verbo be (This girl is nice.)
+            Los adjetivos no poseen ni género ni número.
+            She's a nice girl. They are nice girls.
+          </p>
+        </div>
+        <footer>
+          <a href="#" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect js-modal-close">Cerrar</a>
+        </footer>
+      </div>
+
+         <div id="popup5" class="modal-box">  
+        <header>
+          <a href="#" class="js-modal-close close">×</a>
+          <h3>Oraciones Negativas</h3>
+        </header>
+        <div class="modal-body">
+          <p><br/>
+            Para formar una oración negativa, añade not después de los verbos be or have, o después de un verbo auxiliar do(es).
+            He is not my friend. I have not seen him. I do not like bananas.
+            La contracción -n’t que se añade al final de la forma verbal es común en el uso diario de la lengua.
+            He isn't my friend. I haven't seen him. I don't like bananas.
+          </p>
+        </div>
+        <footer>
+          <a href="#" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect js-modal-close">Cerrar</a>
+        </footer>
+      </div>
+
+       <div id="popup6" class="modal-box">  
+        <header>
+          <a href="#" class="js-modal-close close">×</a>
+          <h3>Oraciones interrogativas</h3>
+        </header>
+        <div class="modal-body">
+          <p><br/>
+            Es necesario cambiar el orden de las palabras para formar preguntas en inglés.
+            Preguntas cerradas (sí/no) comienzan con el verbo auxiliar:
+            Did it work?
+            Do you speak English?
+            Does your brother live in Sweden? Has he lived in Sweden for a long time?
+            Las preguntas también pueden empezar con partículas interrogativas. En ese caso, el verbo auxiliar se coloca inmediatamente después de la partícula.
+            Where does your brother live? How long has he lived in Sweden?
+            Si la partícula interrogativa es el sujeto de la oración, no se emplea verbo auxiliar.
+            Who wrote this?
+            What makes music so important to John?
+            Who plays the guitar in the band?
+          </p>
+        </div>
+        <footer>
+          <a href="#" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect js-modal-close">Cerrar</a>
+        </footer>
+      </div>
+
+      <div id="popup7" class="modal-box">  
+        <header>
+          <a href="#" class="js-modal-close close">×</a>
+          <h3>Conjugación verbal: pasado simple</h3>
+        </header>
+        <div class="modal-body">
+          <p><br/>
+            El pasado simple se emplea para hablar de:
+              <p>1.-Una acción en el pasado</p>
+              <p>2.-Una acción repetida o usual en el pasado</p>
+              <p>3.-Un estado de ánimo en el pasado</p>
+          </p>
+        </div>
+        <footer>
+          <a href="#" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect js-modal-close">Cerrar</a>
+        </footer>
+      </div>
+
+        <div id="popup8" class="modal-box">  
+        <header>
+          <a href="#" class="js-modal-close close">×</a>
+          <h3>Verbos modales</h3>
+        </header>
+        <div class="modal-body">
+          <p><br/>
+              Los verbos modales expresan el punto de vista del hablante en relación a lo que se dice (si se permite, si es posible o necesario, etc). La mayoría de ellos actúan como verbos auxiliares
+              <p>1.-Can: Capacidad, habilidad, permiso, exigencia</p>
+              <p>2.-May: posibilidad, petición de permiso(muy formal)</p>
+              <p>3.-Must : obligacion, deber, labor, certeza casi completa</p>
+              <p>4.-Should: deber, labor, consejo, opinión</p>
+          </p>
+        </div>
+        <footer>
+          <a href="#" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect js-modal-close">Cerrar</a>
+        </footer>
+      </div>
+
+       <div id="popup9" class="modal-box">  
+        <header>
+          <a href="#" class="js-modal-close close">×</a>
+          <h3>¿"Lie" o "lay"?</h3>
+        </header>
+        <div class="modal-body">
+          <p><br/>
+              lay (verbo irregular):poner, colocar, siempre va con objeto directo.
+              <p>lie (verbo irregular):tumbarse, echarse, estar; colocarse en posición horizontal, suele ir acompañado de una expresión adverbial</p>
+          </p>
+        </div>
+        <footer>
+          <a href="#" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect js-modal-close">Cerrar</a>
+        </footer>
+      </div>
+
+
+       <div id="popup10" class="modal-box">  
+        <header>
+          <a href="#" class="js-modal-close close">×</a>
+          <h3>¿Qué hora es?</h3>
+        </header>
+        <div class="modal-body">
+          <p><br/>
+              Usa o'clock si no hay minutos en la hora que se quiere expresar.
+              9:00  nine o'clock
+              El modo más simple y formal es decir primero las horas y después los minutos.
+              7:45  seven forty-five
+              11:06 eleven (oh) six
+              <p>El modo más común e informal es decir los minutos primero y las horas después. Usa:
+              la palabra past o after (en inglés americano) para los minutos 01 a 30
+              la palabra to o before/of/till (en inglés americano) para los minutos 31 a 60</p> 
+          </p>
+        </div>
+        <footer>
+          <a href="#" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect js-modal-close">Cerrar</a>
+        </footer>
+      </div>
+      <!--Termina modal -->
+
+
+        <footer class="android-footer mdl-mega-footer">
+          <div class="mdl-mega-footer--top-section">
+
+            <div class="mdl-mega-footer--right-section">
+              <a class="mdl-typography--font-light" href="#top">
+                Arriba
+                <i class="material-icons">expand_less</i>
+              </a>
+            </div>
+          </div>
+        </footer>
+
+    </div>
+
+     <script src="https://code.getmdl.io/1.2.0/material.min.js"></script>
+      <!--del modal -->
+     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+     <script src="modal-js/index.js"></script>
+  </body>
+</html>
