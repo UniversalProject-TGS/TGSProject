@@ -1,0 +1,155 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Universal</title>
+
+    <!-- CSS de material -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.0/material.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+    .container {
+     width: 200px;
+     height: 200px;
+     position:relative;
+     left: 0;
+     right: 0;
+     margin: 0 auto;
+     top: 20px;
+   }
+     .div-img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+   }
+     .div-img .img {
+     -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+      border-radius: 10px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      transform: scale(1);
+     -ms-transform: scale(1);
+     -moz-transform: scale(1);
+     -webkit-transform: scale(1);
+     -o-transform: scale(1);
+     -webkit-transition: all 500ms ease-in-out;
+     -moz-transition: all 500ms ease-in-out;
+     -ms-transition: all 500ms ease-in-out;
+     -o-transition: all 500ms ease-in-out;
+   }
+     .div-img .text {
+      font-family: 'Open Sans';
+      padding-top: 5px;
+      display: block;
+      text-align: center;
+      width: 100%;
+      transform: translate(0px);
+     -webkit-transition: all 500ms ease-in-out;
+     -moz-transition: all 500ms ease-in-out;
+     -ms-transition: all 500ms ease-in-out;
+     -o-transition: all 500ms ease-in-out;
+      opacity: 0;
+      transition: transfom opacity 1.5s;
+    }
+     .div-img:hover .img {
+      transform: scale(0.8);
+     -ms-transform: scale(0.8);
+     -moz-transform: scale(0.8);
+     -webkit-transform: scale(0.8);
+     -o-transform: scale(0.8);
+   }
+     .div-img:hover .text {
+      transform: translate(0px, -20px);
+      opacity: 1;
+}
+    </style>
+
+  </head>
+
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="android-title mdl-layout-title">
+            <div style="font-family: 'Montserrat', serif;"><font color="grey">Universal</font></div>
+          </span>
+
+          <!-- añade el espacio y alinea a la derecha -->
+          <div class="android-header-spacer mdl-layout-spacer"></div>
+          
+          <!-- Navegacion -->
+          <div class="android-navigation-container">
+            <nav class="android-navigation mdl-navigation">
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="AdministracionIngles.html">Regresar</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="Logout.html">Cerrar Sesión</a>
+            </nav>
+          </div>
+
+          <span class="android-mobile-title mdl-layout-title">
+            <span class="android-title mdl-layout-title">
+              <div style="font-family: 'Montserrat', serif;"><font color="grey">Universal</font></div>
+            </span>
+          </span>
+        </div>
+      </div>
+
+      <div class="android-content mdl-layout__content">
+
+        <div class="android-content mdl-layout__content">
+        <div class="android-wear-section">
+          <div class="android-wear-band">
+            <div class="android-wear-band-text">
+              <p class="mdl-typography--headline mdl-typography--font-thin">
+                Eliminar una actividad.
+              </p>
+            </div>
+          </div>
+       </div>
+
+
+        <div class="android-more-section">
+         <center><p class="mdl-typography--headline">
+          Seleccione la actividad que desee eliminar.</p></center>
+          <div class="android-card-container mdl-grid">
+            <center><img src = "images/En_construcción_plantilla.gif"></center>
+            </div>
+          </div>
+        </div>
+
+
+        <footer class="android-footer mdl-mega-footer">
+            <div class="mdl-mega-footer--right-section">
+              <a class="mdl-typography--font-light" href="#top">
+                Arriba
+                <i class="material-icons">expand_less</i>
+              </a>
+            </div>
+        </footer>
+      </div>
+    </div>
+
+    <script src="https://code.getmdl.io/1.2.0/material.min.js"></script>
+  </body>
+</html>

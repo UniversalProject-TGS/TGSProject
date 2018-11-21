@@ -1,0 +1,131 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Universal</title>
+
+    <!-- CSS de material -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.0/material.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+
+        .button {
+    background-color: #318aac;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    }
+
+    html,
+    body {
+    height: 100%;
+    }
+    html {
+    display: table;
+    margin: auto;
+    }
+    body {
+    display: table-cell;
+    vertical-align: middle;
+    width: 60%;
+    }
+    .margin {
+     margin: 0 !important;
+   }
+    </style>
+  </head>
+
+  <body>
+<div class="android-wear-section">
+  <div class="android-wear-band">
+    <div class="android-wear-band-text">
+      <p class="mdl-typography--headline mdl-typography--font-thin">
+        Agregar un nuevo ejercicio en Listening.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="android-more-section">
+         <center><p class="mdl-typography--headline">
+          Es necesario llenar todo los campos para poder subir de forma correcta la actividad a la plataforma.</p></center>
+          <div class="android-card-container mdl-grid">
+
+    <div class="row margin">
+      <div class="input-field col s12">
+        <div class="row margin">
+          <div class="input-field col s12">
+            <i class="prefix"></i>
+            <input id="username" type="text" class="validate">
+            <label for="username" class="center-align">Titulo de la actividad</label>
+          </div>
+        </div>
+
+        <div class="row margin">
+          <div class="input-field col s12">
+            <i class="prefix"></i>
+            <input id="email" type="email" class="validate">
+            <label for="email" class="center-align">Lectura</label>
+          </div>
+        </div>
+
+        <div class="android-more-section">
+          <form name="formulario" action="envio.php" method="post" enctype="multipart/form-data">
+
+            <center> <h5> Seleccione archivo mp3: 
+             <input name="archivo" type="file" size="20"> </h5> </center>
+
+             <center> <h5> Seleccione el cover del mp3: 
+             <input name="archivo" type="file" size="20"> </h5> </center>
+
+          </form>
+        </div>
+
+               <div class="text-center">
+                <center>
+                 <a href="AddListening.html" class="button" target="home">Enviar</a>
+                 <a href="AddListening.html" class="button" target="home">Cancelar</a>
+                </center>
+               </div>
+              </div>
+
+           </div>
+         </div>
+       </div>
+     </div>
+
+  <!-- librerias de jQuery -->
+ <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <!--js de materialize -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+  </body>
+</html>
