@@ -1,0 +1,487 @@
+<!doctype html>
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Grammatica</title>
+
+    <!-- CSS de material -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.0/material.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+        <!--del modal -->
+     <link rel="stylesheet" href="modal-css/normalize.css">  
+     <link rel="stylesheet" href="modal-css/style.css">
+
+   
+
+
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+
+
+
+  </head>
+
+  <body>
+
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="android-title mdl-layout-title">
+            <div style="font-family: 'Montserrat', serif;"><font color="grey">Universal</font></div>
+          </span>
+
+         <!-- añade el espacio y alinea a la derecha -->
+          <div class="android-header-spacer mdl-layout-spacer"></div>
+          
+
+          <!-- Navegacion -->
+          <div class="android-navigation-container">
+            <nav class="android-navigation mdl-navigation">
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="IndexItaliano.html">Iniziazione</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="Logout.html">Chiudi sessione</a>
+              
+            </nav>
+          </div>
+
+          <span class="android-mobile-title mdl-layout-title">
+            <span class="android-title mdl-layout-title">
+              <div style="font-family: 'Montserrat', serif;"><font color="grey">Universal</font></div>
+            </span>
+          </span>
+
+
+            <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+            <i class="material-icons">keyboard_arrow_right</i>
+          </button>
+          <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+            <a class="mdl-navigation__link" href="FAQ.html"><i class="material-icons">live_help</i>FAQ's</a>
+          </ul>
+
+        </div>
+      </div>
+
+
+
+      <div class="android-content mdl-layout__content">
+
+        <a name="top"></a>
+       <div class="logo-font android-sub-slogan mdl-typography--text-center"><font color = "grey">Migliora il modo in cui formuli le frasi!</font></div>
+
+      <!--contenido de la pagina -->
+      
+      <div class="content-grid mdl-grid">
+      <div class="content-column mdl-cell--6-col">
+     
+    <!-- Igual ya meti 4 y no se despedorro xD -->
+      
+
+      <ul class="demo-list-three mdl-list">
+
+
+        <li class="mdl-list__item mdl-list__item--three-line">
+          <span class="mdl-list__item-primary-content">
+            <i class="material-icons mdl-list__item-avatar">library_books</i>
+            <span>Artículo determinado<</span>
+            <span class="mdl-list__item-text-body">
+              El artículo se corresponde con el sustantivo en género (masculino, femenino) y número (singular, plural)...
+            </span>
+          </span>
+          <span class="mdl-list__item-secondary-content">
+            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#" data-modal-id="popup1"><i class="material-icons">add_box</i></a>
+          </span>
+        </li>
+
+
+        <li class="mdl-list__item mdl-list__item--three-line">
+          <span class="mdl-list__item-primary-content">
+            <i class="material-icons  mdl-list__item-avatar">library_books</i>
+            <span>Artículo indeterminado</span>
+            <span class="mdl-list__item-text-body">
+              El artículo indeterminado en singular es "un" para sustantivos masculinos y "una" para los femeninos...
+            </span>
+          </span>
+          <span class="mdl-list__item-secondary-content">
+             <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#" data-modal-id="popup2"><i class="material-icons">add_box</i></a>
+          </span>
+        </li>
+
+
+        <li class="mdl-list__item mdl-list__item--three-line">
+          <span class="mdl-list__item-primary-content">
+            <i class="material-icons  mdl-list__item-avatar">library_books</i>
+            <span>Imperativo</span>
+            <span class="mdl-list__item-text-body">
+              El imperativo se usa para expresar órdenes, ruegos y requerimientos...
+            </span>
+          </span>
+          <span class="mdl-list__item-secondary-content">
+           <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#" data-modal-id="popup3"><i class="material-icons">add_box</i></a>
+          </span>
+        </li>
+
+
+        <li class="mdl-list__item mdl-list__item--three-line">
+          <span class="mdl-list__item-primary-content">
+            <i class="material-icons  mdl-list__item-avatar">library_books</i>
+            <span>Participio perfetto</span>
+            <span class="mdl-list__item-text-body">
+             En verbos regulares el participio se forma colgando...
+            </span>
+          </span>
+          <span class="mdl-list__item-secondary-content">
+             <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#" data-modal-id="popup4"><i class="material-icons">add_box</i></a>
+          </span>
+        </li>
+
+          <li class="mdl-list__item mdl-list__item--three-line">
+          <span class="mdl-list__item-primary-content">
+            <i class="material-icons  mdl-list__item-avatar">library_books</i>
+            <span>Passato prossimo</span>
+            <span class="mdl-list__item-text-body">
+             El Passato prossimo se usa en acciones...
+            </span>
+          </span>
+          <span class="mdl-list__item-secondary-content">
+             <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#" data-modal-id="popup5"><i class="material-icons">add_box</i></a>
+          </span>
+        </li>
+
+      </ul>
+        </div>
+
+        <!-- segunda columna !!!!!!!!!11-->
+     
+        <div class="content-column mdl-cell--6-col">
+      
+
+      <ul class="demo-list-three mdl-list">
+
+        <li class="mdl-list__item mdl-list__item--three-line">
+          <span class="mdl-list__item-primary-content">
+            <i class="material-icons mdl-list__item-avatar">library_books</i>
+            <span>Trapassato prossimo</span>
+            <span class="mdl-list__item-text-body">
+            El Trapassato prossimo se usa para hechos anteriores a otro hecho....
+            </span>
+          </span>
+          <span class="mdl-list__item-secondary-content">
+            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#" data-modal-id="popup6"><i class="material-icons">add_box</i></a>
+          </span>
+        </li>
+
+
+        <li class="mdl-list__item mdl-list__item--three-line">
+          <span class="mdl-list__item-primary-content">
+            <i class="material-icons  mdl-list__item-avatar">library_books</i>
+            <span>Passato remoto:</span>
+            <span class="mdl-list__item-text-body">
+              El Passato remoto al igual que el Passato prossimo describe...
+            </span>
+          </span>
+          <span class="mdl-list__item-secondary-content">
+            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#" data-modal-id="popup7"><i class="material-icons">add_box</i></a>
+          </span>
+        </li>
+
+
+        <li class="mdl-list__item mdl-list__item--three-line">
+          <span class="mdl-list__item-primary-content">
+            <i class="material-icons  mdl-list__item-avatar">library_books</i>
+            <span>Futuro semplice</span>
+            <span class="mdl-list__item-text-body">
+              El Futuro semplice se usa para acciones futuras y...
+            </span>
+          </span>
+          <span class="mdl-list__item-secondary-content">
+             <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#" data-modal-id="popup8"><i class="material-icons">add_box</i></a>
+          </span>
+        </li>
+
+        <li class="mdl-list__item mdl-list__item--three-line">
+          <span class="mdl-list__item-primary-content">
+            <i class="material-icons  mdl-list__item-avatar">library_books</i>
+            <span>Futuro anteriore</span>
+            <span class="mdl-list__item-text-body">
+              El Futuro anteriore equivale a...
+            </span>
+          </span>
+          <span class="mdl-list__item-secondary-content">
+             <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#" data-modal-id="popup9"><i class="material-icons">add_box</i></a>
+          </span>
+        </li>
+
+
+        <li class="mdl-list__item mdl-list__item--three-line">
+          <span class="mdl-list__item-primary-content">
+            <i class="material-icons  mdl-list__item-avatar">library_books</i>
+            <span>Condizionale I</span>
+            <span class="mdl-list__item-text-body">
+              El Condizionale I se usa para ruegos, posibilidades y deseos...
+            </span>
+          </span>
+          <span class="mdl-list__item-secondary-content">
+             <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#" data-modal-id="popup10"><i class="material-icons">add_box</i></a>
+          </span>
+        </li>
+
+
+      </ul>
+        </div>
+
+
+      </div>
+              
+
+     
+
+      <!-- termina contenido de la pagina-->
+      <!-- mas modales :1-->
+        <div id="popup1" class="modal-box">  
+        <header>
+          <a href="#" class="js-modal-close close">×</a>
+          <h3>Artículo determinado</h3>
+        </header>
+        <div class="modal-body">
+          <p><br/>
+              El artículo se corresponde con el sustantivo en género (masculino, femenino) y número (singular, plural). Por otro lado, el artículo cambia en función del comienzo de la letra del sustantivo al que precede. Para una mejor comprensión mostramos algunos ejemplos.<br/><br/>
+
+               El artículo determinado singular es "il" para sustantivos masculinos y "la" para femenino. Si la siguiente palabra comienza con vocal, el artículo determinado se acorta a "l'". Uns sustantivo masculino que comienza con x, y, z o una doble consonante, el artículo será "lo".<br/><br/>
+
+               Ejemplos: il bambino – el niño, la bambina – la niña, l'amico – el amigo, l'amica – la amiga, lo zio – el tío<br/><br/>
+
+               El artículo determinado plural es "i" para sustantivos masculinos y "le" para femeninos. Para sustantivos masculinos que comienzan con vocal, x, y, z o con doble consonante, la forma plural de artículo es "gli".<br/><br/>
+
+               Ejemplos: i bambini – los niños, le bambine – las niñas, gli amici – los amigos, le amiche – las amigas, gli zii – los tíos<br/><br/>
+          </p>
+          
+        </div>
+        <footer>
+          <a href="#" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect js-modal-close">Vicino</a>
+        </footer>
+      </div>
+
+       <div id="popup2" class="modal-box">  
+        <header>
+          <a href="#" class="js-modal-close close">×</a>
+          <h3>Artículo indeterminado</h3>
+        </header>
+        <div class="modal-body">
+          <p><br/>
+             El artículo indeterminado en singular es "un" para sustantivos masculinos y "una" para los femeninos. Si el sustantivo al que precede es femenino y comienza con vocal el artículo indeterminado se acorta a "un", en un sustantivo masculino no cambia nada. Un sustantivo masculino que cominenza con x, y, z o una doble consonante, lleva el artículo indeterminado "uno".<br/><br/>
+
+             Ejemplos: un bambino – un niño, una bambina – una niña, un amico – un amigo, un'amica – una amiga, uno zio – un tío<br/><br/>
+
+             El artículo indeterminado en plural es "dei" para sustantivos masculinos y "delle" para femeninos. Para sustantivos masculinos que comienzan con vocal, x, y, z o una consonante doble, la forma plural es "degli".<br/><br/>
+
+             Ejemplos: dei bambini – unos niños, delle bambine – unas niñas, degli amici – unos amigos, delle amiche – unas amigas, degli zii – unos tíos<br/><br/></p>
+          
+        </div>
+        <footer>
+          <a href="#" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect js-modal-close">Vicinor</a>
+        </footer>
+      </div>
+
+
+      <div id="popup3" class="modal-box">  
+        <header>
+          <a href="#" class="js-modal-close close">×</a>
+          <h3>Imperativo</h3>
+        </header>
+        <div class="modal-body">
+          <p><br/>
+            El imperativo se usa para expresar órdenes, ruegos y requerimientos.<br/><br/>
+
+            Para "tu" (2. Sg.), "voi" (2. Pl.) y "noi" (1. Pl.) la forma imperativa equivale a la del presente.<br/><br/>
+
+            Ejemplos: aspetta! – ¡espera!, aspettate! – ¡esperad!, aspettiamo! – ¡esperemos!<br/><br/>
+
+            Para "Lei" (3. Sg. Usted): Verbos en -are se cuelga una -i en la raiz, verbos en -ere y -ire se cuelga una -a.<br/><br/>
+
+            Ejemplos: aspetti! – ¡espere!, scriva! – ¡escriba!, parta! – ¡salga!<br/><br/>
+
+            La negación del imperativo se forma anteponiendo un "non". Sólo la forma negada "tu" se forma con "non" y el infinitivo.<br/><br/>
+
+            Ejemplos: non aspettare! – ¡no esperes!, non ascoltarlo! – ¡no le escuches!<br/><br/>
+
+
+          </p>
+          
+        </div>
+        <footer>
+          <a href="#" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect js-modal-close">Vicino</a>
+        </footer>
+      </div>
+
+      <div id="popup4" class="modal-box">  
+        <header>
+          <a href="#" class="js-modal-close close">×</a>
+          <h3>Participio perfetto</h3>
+        </header>
+        <div class="modal-body">
+          <p><br/>
+            En verbos regulares el participio se forma colgando -ato (en verbos -are), -uto (en verbos -ere) und -ito (en verbos -ire) de la raiz.<br/><br/>
+
+            Ejemplos: andato – ido, venduto – vendido, partito – salido<br/><br/>
+          </p>
+        </div>
+        <footer>
+          <a href="#" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect js-modal-close">Vicino</a>
+        </footer>
+      </div>
+
+         <div id="popup5" class="modal-box">  
+        <header>
+          <a href="#" class="js-modal-close close">×</a>
+          <h3>Passato prossimo</h3>
+        </header>
+        <div class="modal-body">
+          <p><br/>
+            El Passato prossimo se usa en acciones de una sola vez y terminadas que han sucedido hace poco.<br/><br/>
+
+            El Passato prossimo se forma con el presente de "avere" ó "essere" y el participio perfetto. El verbo auxiliar "essere" se usa en verbos con movimiento y reflexivos. Para formas con "essere" el participio se ajusta a la persona igual que un adjetivo.<br/><br/>
+
+            Ejemplos: ho fatto – he hecho, abbiamo sentito – hemos oído, mi sono alzata – me he levantado(fem), siamo andati – hemos ido (pl)<br/><br/>
+          </p>
+        </div>
+        <footer>
+          <a href="#" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect js-modal-close">Vicino</a>
+        </footer>
+      </div>
+
+       <div id="popup6" class="modal-box">  
+        <header>
+          <a href="#" class="js-modal-close close">×</a>
+          <h3>Trapassato prossimo</h3>
+        </header>
+        <div class="modal-body">
+          <p><br/>
+            El Trapassato prossimo se usa para hechos anteriores a otro hecho. Se puede asemejar al pluscuamperfecto español.<br/><br/>
+
+            El Trapassato prossimo se forma con el imperfetto de "avere" ó "essere" y el participio perfetto. El auxiliar "essere" se usa para verbos con movimiento y reflexivos. Para formas con "essere" el participio se ajusta a la persona igual que un adjetivo.<br/><br/>
+
+            Ejemplos: avevo fatto – había hecho, avevamo sentito – habíamos oído, mi ero alzata – me había levantado (fem), eramo andati – nos habíamos ido (pl)<br/><br/>
+          </p>
+        </div>
+        <footer>
+          <a href="#" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect js-modal-close">Vicino</a>
+        </footer>
+      </div>
+
+      <div id="popup7" class="modal-box">  
+        <header>
+          <a href="#" class="js-modal-close close">×</a>
+          <h3>Passato remoto</h3>
+        </header>
+        <div class="modal-body">
+          <p><br/>
+            El Passato remoto al igual que el Passato prossimo describe una única y terminada acción, más en el pasado aún. Esta forma verbal se encuentra en textos literarios y en el sur de Italia.<br><br>
+
+            Se forma con la siguientes terminaciones en la raíz:<br><br>
+
+            -are: -ai, -asti, -ò, -ammo, -aste, -arono<br><br>
+            -ere: -etti, -esti, -ette, -emmo, -este, -erono<br><br>
+            -ire: -ii, -isti, -ì, -immo, -iste, -irono<br><br>
+          </p>
+        </div>
+        <footer>
+          <a href="#" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect js-modal-close">Vicino</a>
+        </footer>
+      </div>
+
+        <div id="popup8" class="modal-box">  
+        <header>
+          <a href="#" class="js-modal-close close">×</a>
+          <h3>Futuro semplice</h3>
+        </header>
+        <div class="modal-body">
+          <p><br/>
+              El Futuro semplice se usa para acciones futuras y se corresponde con el futuro simple en español.<br><br>
+              El Futuro semplice se forma quitando la última vocal al infinitivo y sustituyéndola por la terminación correspondiente Para verbos en -are se sustituirá la -a del final por la -e.<br><br>
+              Las terminaciones del futuro son: -ò, -ai, -à, -emo, -ete, -anno<br><br>
+              Ejemplos: aspetterò – esperaré, scriveremo – escribiriemos, partiranno – saldremos<br><br>
+              essere (see): sarò, sarai, sarà, saremo, sarete, saranno<br><br>
+              Para muchos verbos en -ere cae la “e” para la formación del futuro.<br><br>
+              Ejemplo: avere (tener): avrò, avrai, avrà, avremo, avrete, avranno<br><br>
+          </p>
+        </div>
+        <footer>
+          <a href="#" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect js-modal-close">Vicino</a>
+        </footer>
+      </div>
+
+       <div id="popup9" class="modal-box">  
+        <header>
+          <a href="#" class="js-modal-close close">×</a>
+          <h3>Futuro anteriore</h3>
+        </header>
+        <div class="modal-body">
+          <p><br/>
+              El Futuro anteriore equivale a nuestro futuro perfecto para describir acciones que en le futuro deberán suceder. Se forma con el Futuro semplice de "avere" ó "essere" y el Participio pertetto.<br><br>
+              <p>Ejemplos: avrò mangiato – habré comido, sarà arrivata – habrá salido (f)</p>
+          </p>
+        </div>
+        <footer>
+          <a href="#" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect js-modal-close">Vicino</a>
+        </footer>
+      </div>
+
+
+       <div id="popup10" class="modal-box">  
+        <header>
+          <a href="#" class="js-modal-close close">×</a>
+          <h3>Condizionale I</h3>
+        </header>
+        <div class="modal-body">
+          <p><br/>
+              El Condizionale I se usa para ruegos, posibilidades y deseos. El Condizionale I se forma quitando la última vocal del infinitivo y sustituyéndola por la terminación adecuada. Para verbos que terminan en -are se sustituye la terminación -a por -e.<br><br>
+              Las terminaciones del Condizionale: -ei, -esti, -ebbe, -emmo, -este, -ebbero<br><br>
+              Ejemplos: aspetterei – yo esperaría, scriveremmo – nosotros escribiriamos, partirebbero – ellos partirían<br><br>
+              essere (ser): sarei, saresti, sarebbe, saremmo, sarete, sarebbero
+              
+          </p>
+        </div>
+        <footer>
+          <a href="#" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect js-modal-close">Vicino</a>
+        </footer>
+      </div>
+      <!--Termina modal -->
+
+
+        <footer class="android-footer mdl-mega-footer">
+          <div class="mdl-mega-footer--top-section">
+
+            <div class="mdl-mega-footer--right-section">
+              <a class="mdl-typography--font-light" href="#top">
+                Arriba
+                <i class="material-icons">expand_less</i>
+              </a>
+            </div>
+          </div>
+        </footer>
+
+    </div>
+
+     <script src="https://code.getmdl.io/1.2.0/material.min.js"></script>
+      <!--del modal -->
+     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+     <script src="modal-js/index.js"></script>
+  </body>
+</html>

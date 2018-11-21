@@ -1,0 +1,95 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Universal</title>
+
+    <!-- CSS de material -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.0/material.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+
+        .button {
+    background-color: #318aac;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    }
+
+    #textboxid {
+    height: 300px;
+    font-size:14pt;
+    }
+    </style>
+  </head>
+
+  <body>
+
+        <div class="android-wear-section">
+          <div class="android-wear-band">
+            <div class="android-wear-band-text">
+              <p class="mdl-typography--headline mdl-typography--font-thin">
+              </p>
+            </div>
+          </div>
+       </div>
+
+        <div class="android-more-section">
+         <center><p class="mdl-typography--headline">
+          È necessario compilare tutti i campi per caricare correttamente l'attività sulla piattaforma.</p></center>
+          <div class="android-card-container mdl-grid">
+
+          <div class="row margin">
+           <div class="input-field col s12">
+            <p class="mdl-typography--headline">Compila il seguente modulo correttamente: </p>
+
+            <h5> Titolo dell'attività: 
+             <input id="username" type="text" class="validate"> </h5>
+
+            <h5> Attività: 
+             <input id="textboxid" type="text" class="validate"> </h5>
+
+            <h5> Seleziona il file mp3: 
+             <input name="archivo" type="file" size="20"> </h5>
+
+              <div class="android-more-section">
+               <div id="separar">
+                <center>
+                 <a href="AddListening.html" class="button" target="home">Inviare</a>
+                 <a href="AddListening.html" class="button" target="home">Annullare</a>
+                </center>
+               </div>
+              </div>
+
+           </div>
+         </div>
+       </div>
+     </div>
+
+    <script src="https://code.getmdl.io/1.2.0/material.min.js"></script>
+  </body>
+</html>
